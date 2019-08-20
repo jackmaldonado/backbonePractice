@@ -56,10 +56,10 @@
 		},
 
 		appendToHelloUL : function(helloModel) {
-			var helloView = new helloView({
+			var helloView = new HelloView({
 				model : helloModel
 			});
-			$(this.el).append(helloView.render(.).el);
+			$(this.el).append(helloView.render().el);
 		}
 
 	});
